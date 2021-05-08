@@ -18,29 +18,33 @@
 
   <body>
     <header class="page-header">
-      <div class="container main-nav">
-        <nav class="main-nav__nav">
-          <a href="index.html" class="logo">Web<span class="logo-span">Studio</span></a>
+      <div class="page-header__container">
+        <nav class="site-nav">
+          <a href="index.html" class="logo">Web<span class="logo__text">Studio</span></a>
 
-          <ul class="site-nav list">
-            <li class="item"><a href="./index.html" class="link">Студия</a></li>
-            <li class="item studio"><a href="./portfolio.html" class="link-current">Портфолио</a></li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студия</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link site-nav__link--current">Портфолио</a>
+            </li>
+            <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="auth-nav list icons-list">
-          <li class="item icons-header">
-            <a href="" class="link icons-header-link">
-              <svg class="icons-svg" width="16" height="12">
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
+            <a href="" class="site-nav__link site-nav__link--text site-nav__link--icon">
+              <svg class="site-nav__icon" width="16" height="12">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
 
-          <li class="item icons-header">
-            <a href="" class="link icons-header-link">
-              <svg class="icons-svg" width="10" height="16">
+          <li class="site-nav__item">
+            <a href="" class="site-nav__link site-nav__link--text">
+              <svg class="site-nav__icon" width="10" height="16">
                 <use href="./images/sprite.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -56,19 +60,19 @@
           <h1 class="section-title-progect">Проекты</h1>
           <ul class="progect list">
             <li class="item">
-              <button type="button" class="button secondary">Все</button>
+              <button type="button" class="button__secondary">Все</button>
             </li>
             <li class="item">
-              <button type="button" class="button secondary">Веб-сайты</button>
+              <button type="button" class="button__secondary">Веб-сайты</button>
             </li>
             <li class="item">
-              <button type="button" class="button secondary">Приложения</button>
+              <button type="button" class="button__secondary">Приложения</button>
             </li>
             <li class="item">
-              <button type="button" class="button secondary">Дизайн</button>
+              <button type="button" class="button__secondary">Дизайн</button>
             </li>
             <li class="item">
-              <button type="button" class="button secondary">Маркетинг</button>
+              <button type="button" class="button__secondary">Маркетинг</button>
             </li>
           </ul>
 
