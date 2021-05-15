@@ -35,16 +35,11 @@
   background-color: #ffffff;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.team-icon__link:hover .team-icons,
-.team-icon__link:focus .team-icons {
-  fill: #ffffff;
-}
-
-.team-icon__link:hover,
-.team-icon__link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .team-icons {
@@ -53,4 +48,9 @@
   fill: #afb1b8;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .team-icon__link:hover &,
+  .team-icon__link:focus & {
+    fill: #ffffff;
+  }
 }

@@ -39,19 +39,19 @@
   align-items: center;
   justify-content: center;
   display: flex;
-}
 
-.client__link:hover,
-.client__link:focus {
-  border: 1px solid var(--accent-color);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .client__svg {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.client__link:hover .client__svg,
-.client__link:focus .client__svg {
-  fill: var(--accent-color);
+  .client__link:hover &,
+  .client__link:focus & {
+    fill: var(--accent-color);
+  }
 }

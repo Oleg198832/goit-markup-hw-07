@@ -1,11 +1,11 @@
 .overlays {
   position: relative;
   overflow: hidden;
-}
 
-.overlays__card:hover .overlays {
-  transform: translateY(0);
-  opacity: 1;
+  .overlays__card:hover & {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .overlays__card {
